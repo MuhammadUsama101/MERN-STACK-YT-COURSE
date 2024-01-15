@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    border: 1px solid black;
+    font-size: 50px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear; */
+    transition: all 2s 0.5s ease-out;
+}
+.box:hover{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    color: red;
+    /* transform: rotate(360deg); */
+}

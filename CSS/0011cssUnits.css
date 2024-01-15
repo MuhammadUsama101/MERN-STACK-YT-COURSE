@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50vw;   
+    height: 50vh;
+    background-color: red;
+}
+.mini{
+    font-size: 2em;
+}
+.mini1{
+    font-size: 2rem;
+}

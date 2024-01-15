@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* 
+text-align
+direction
+unicode-bidi
+
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration
+text-decoration-thickness
+
+text-transform
+
+text-indent
+letter-spacing
+line-height
+word-spacing
+white-space
+
+text-shadow
+*/
+
+p{
+    text-align: justify;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-decoration-line:overline ;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px; */
+    /* text-decoration: overline green wavy 5px; */
+    /* text-transform: capitalize; */
+    text-indent: 50px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    word-spacing: 50px;
+    white-space: nowrap;
+
+}
+span{
+    font-size: 400px;
+    text-shadow: 2px 2px 2px red;
+}
