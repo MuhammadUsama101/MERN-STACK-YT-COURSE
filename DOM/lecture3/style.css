@@ -1,0 +1,25 @@
+
+
+.mera{
+    width: 100%;
+    height: 100px;
+    background: green;
+    position: relative;
+}
+
+.mini{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.one , .two , .three{
+    width: 100%;
+    height: 20px;
+    border: 1px solid red;
+    background: yellow;
+    margin-bottom: 10px;
+}
